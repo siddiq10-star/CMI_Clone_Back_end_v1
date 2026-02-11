@@ -12,7 +12,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "http://localhost:5174", // your React app URL
+    origin: "http://localhost:5173", // your React app URL
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
